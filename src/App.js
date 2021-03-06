@@ -1,11 +1,12 @@
 /** @format */
 
-import './App.css';
+import React from 'react';
+import { AmplifyAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>My Family Helper Application</h1>
+    <div>
+      <h1>Welcome here</h1>
     </div>
   );
 }
