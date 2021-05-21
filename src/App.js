@@ -1,14 +1,11 @@
 /** @format */
 
 import React from 'react';
-import { AmplifyAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
-
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>Welcome here</h1>
+      <h1>this is the first page</h1>
     </div>
   );
-}
-
+};
 export default App;
